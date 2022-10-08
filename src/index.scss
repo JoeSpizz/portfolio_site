@@ -1,3 +1,9 @@
+@import url(https://fonts.googleapis.com/css?family=raleway);
+
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -6,6 +12,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
+  width: 100%;
 }
 
 code {
@@ -24,14 +31,17 @@ code {
 }
 .techList{
   display: flex;
-  flex-wrap: wrap;
+  // flex-wrap: wrap;
  grid-column: 1;
- justify-content: space-between;
+ justify-content: space-around;
 }
-.techList img{
-  height: 80px;
-  
+.techSymbol{
+  max-height: 80px;
+  width: 100%;
+  // max-width: 80px;
+  height: auto ;
 }
+
 .techList li{
   text-align: center;
   display: flex;
@@ -39,13 +49,12 @@ code {
 }
 
 .switch {
-  width: 160px;
-  height: 80px;
-  background-color: rgba(60, 197, 115, 0.4);
+  width: 50px;
+  background-color: rgba(201, 132, 242, 0.4);
   display: flex;
   justify-content: flex-start;
   border-radius: 50px;
-  padding: 10px;
+  padding: 8px;
   cursor: pointer;
   margin: auto;
 }
@@ -54,13 +63,31 @@ code {
 }
 
 .handle {
-  width: 80px;
-  height: 80px;
-  background-color: rgb(214, 62, 62);
+  width: 15px;
+  height: 15px;
+  background-color: rgb(72, 171, 228);
   border-radius: 40px;
 }
+.shortHist{
+  max-width: 750px;
+  margin: auto;
+  font-family: "Raleway";
+  font-size: larger;
+  letter-spacing: .5px;
+}
+.shortHist h1{
+  font-family: fantasy;
+}
 
-
-
-
+.projectCard{
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.projectCard img{
+  max-width:80px;
+  margin: 15px;
+}
 
