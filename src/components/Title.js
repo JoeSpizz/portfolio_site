@@ -13,7 +13,9 @@ function Title() {
         <h2 >{"//"}</h2>
         <h2 >Creativty </h2>
         </div>
+       
         </div>
+        <div className='title'>
         <div className='technologies'>
             <h2 className='sectionHead'>Full-Stack Developer</h2>
             <img className='allLogo' src="https://res.cloudinary.com/doqo7su1s/image/upload/v1667847194/currentLanguages_n8oirj.png" alt="alllogos"/>
@@ -22,26 +24,40 @@ function Title() {
                     <img className="techSymbol" title="HTML" src="https://www.w3.org/html/logo/downloads/HTML5_Badge_512.png" alt="HTML"/>
                 </li>
                 <li>
-                    <img className="techSymbol" src="https://www.freepnglogos.com/uploads/javascript-png/javascript-logo-transparent-logo-javascript-images-3.png" alt="javascript logo"/>
+                    <img className="techSymbol" src="https://www.freepnglogos.com/uploads/javascript-png/javascript-logo-transparent-logo-javascript-images-3.png" title="Javascript" alt="javascript logo"/>
                 </li>
                 <li>
-                    <img className="techSymbol" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png" alt="CSS logo"/>
+                    <img className="techSymbol" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png" title="CSS" alt="CSS logo"/>
                 </li>
                 <li>
-                    <img className="techSymbol" src="https://png2.cleanpng.com/sh/643d56e06c1a1a1a0738849fb4ebeda3/L0KzQYm3VsA1N5p0iZH0aYP2gLBuTgJmaZR5RdxqdnH2c8PwkQQuaZ9sjd5qcnr2Pbr2jvlkNZJ5h982NXK0RYXphcY6PGg5Tak3M0S6QYq7UcgyPWM9SaQ7M0S1RoGBUb5xdpg=/kisspng-react-javascript-angularjs-ionic-atom-5b154be6947457.3471941815281223426081.png" alt="React Logo"/>
+                    <img className="techSymbol" src="https://png2.cleanpng.com/sh/643d56e06c1a1a1a0738849fb4ebeda3/L0KzQYm3VsA1N5p0iZH0aYP2gLBuTgJmaZR5RdxqdnH2c8PwkQQuaZ9sjd5qcnr2Pbr2jvlkNZJ5h982NXK0RYXphcY6PGg5Tak3M0S6QYq7UcgyPWM9SaQ7M0S1RoGBUb5xdpg=/kisspng-react-javascript-angularjs-ionic-atom-5b154be6947457.3471941815281223426081.png" title="React" alt="React Logo"/>
                 </li>
                 <li>
-                    <img className="techSymbol" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ruby_logo.svg/1024px-Ruby_logo.svg.png" alt="Ruby Logo"/>
+                    <img className="techSymbol" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ruby_logo.svg/1024px-Ruby_logo.svg.png" title="Ruby" alt="Ruby Logo"/>
                 </li>
                 <li>
-                    <img className="techSymbol" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Ruby_On_Rails_Logo.svg/1200px-Ruby_On_Rails_Logo.svg.png" alt="Rails Logo"/>
+                    <img className="techSymbol" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Ruby_On_Rails_Logo.svg/1200px-Ruby_On_Rails_Logo.svg.png" title="Rails" alt="Rails Logo"/>
                 </li>
                 <li>
-                    <img className="techSymbol" src="https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png" alt="SQL logo"/>
+                    <img className="techSymbol" src="https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png" title="SQL" alt="SQL logo"/>
                 </li>
-            </ul>}
+            </ul>
         </div>
-
+        <div className='professionalLinks'>
+                <a href="https://github.com/JoeSpizz" target={"blank"} rel="noreferrer">
+                    <img src="https://res.cloudinary.com/doqo7su1s/image/upload/v1667854580/empty_github_qlhixy.png" alt="github"/>
+                    </a>
+                <a href="https://www.linkedin.com/in/joespizzandre/" target="blank" rel="noreferrer">
+                        <img src="https://res.cloudinary.com/doqo7su1s/image/upload/v1667854218/linked_in_empty_ttgq4t.png" alt="LinkedIn" />
+                    </a>
+                <a href="https://medium.com/@spizjo01" target="blank" rel="noreferrer">
+                        <img src="https://res.cloudinary.com/doqo7su1s/image/upload/v1667854468/Rounded_Medium3_svg-512_o9pk57.png" alt="Medium"/>
+                    </a>
+                <a href="https://docs.google.com/document/d/1eN3K5tswj9IDyzcwjtplrVEHkPCbWiNAlrl1y4VfMC0/export?format=pdf" target="blank" rel="noreferrer">
+                    <img src="https://res.cloudinary.com/doqo7su1s/image/upload/v1667855048/resume_symbol_cutout_twc2xx.png" alt="resume"/>
+                </a>
+            </div>
+            </div>
     </div>
   )
 }
