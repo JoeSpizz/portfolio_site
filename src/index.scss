@@ -52,6 +52,11 @@ code {
     font-size: 4em;
   }
 }
+@media (max-width: 415px){
+  .joe {
+    font-size: 3em;
+  }
+}
 @media (min-width: 1000px){
   .joe{
   font-size: 8em;
@@ -71,6 +76,11 @@ code {
 @media (max-width:625px){
   .tag {
     font-size: 3em;
+  }
+}
+@media (max-width:415px){
+  .tag {
+    font-size: 1.5em;
   }
 }
 @media (min-width:1000px){
