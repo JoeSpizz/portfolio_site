@@ -52,11 +52,11 @@ code {
     font-size: 4em;
   }
 }
-@media (max-width: 415px){
-  .joe {
-    font-size: 3em;
-  }
-}
+// @media (max-width: 415px){
+//   .joe {
+//     font-size: 3em;
+//   }
+// }
 @media (min-width: 1000px){
   .joe{
   font-size: 8em;
@@ -78,11 +78,11 @@ code {
     font-size: 3em;
   }
 }
-@media (max-width:415px){
-  .tag {
-    font-size: 1.5em;
-  }
-}
+// @media (max-width:415px){
+//   .tag {
+//     font-size: 1.5em;
+//   }
+// }
 @media (min-width:1000px){
   .tag h2 {
     font-size: 1em;
@@ -94,19 +94,30 @@ code {
  grid-column: 1;
  justify-content: space-around;
 }
+@media (max-width:625px){
+  .techList{
+    display: none;
+  }
+}
 .techSymbol{
   max-height: 80px;
   width: 100%;
   // max-width: 80px;
   height: auto ;
 }
-
 .techList li{
   text-align: center;
   display: flex;
   flex-direction: column;
 }
-
+.allLogo{
+  width: 60%;
+}
+@media (min-width:625px){
+  .allLogo{
+    display: none;
+  }
+}
 .switch {
   width: 50px;
   background-color: rgba(201, 132, 242, 0.4);
@@ -129,6 +140,7 @@ code {
 }
 .shortHist{
   max-width: 750px;
+  width: 90%;
   margin: auto;
   font-family: raleway;
   font-size: 5em;

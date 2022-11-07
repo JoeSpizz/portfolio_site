@@ -12,12 +12,11 @@ function Title() {
         <h2 >Flexibility </h2>
         <h2 >{"//"}</h2>
         <h2 >Creativty </h2>
-        {/* // Stability // Creativty */}
         </div>
         </div>
         <div className='technologies'>
             <h2 className='sectionHead'>Full-Stack Developer</h2>
-            <i class="fas fa-gamepad fa-5x" aria-hidden="true"></i>
+            <img className='allLogo' src="https://res.cloudinary.com/doqo7su1s/image/upload/v1667847194/currentLanguages_n8oirj.png" alt="alllogos"/>
             <ul className='techList'>
                 <li> 
                     <img className="techSymbol" title="HTML" src="https://www.w3.org/html/logo/downloads/HTML5_Badge_512.png" alt="HTML"/>
@@ -40,7 +39,7 @@ function Title() {
                 <li>
                     <img className="techSymbol" src="https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png" alt="SQL logo"/>
                 </li>
-            </ul>
+            </ul>}
         </div>
 
     </div>
