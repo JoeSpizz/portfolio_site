@@ -8,9 +8,9 @@ function Title() {
         <h1 className='joe'>Joe<br></br>Spizzandre</h1>
         <div className='tag'>
         <h2 >Reliability </h2>
-        <h2 >// </h2>
+        <h2 >{"//"} </h2>
         <h2 >Flexibility </h2>
-        <h2 >// </h2>
+        <h2 >{"//"}</h2>
         <h2 >Creativty </h2>
         {/* // Stability // Creativty */}
         </div>
