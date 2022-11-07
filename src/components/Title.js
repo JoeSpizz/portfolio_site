@@ -17,7 +17,7 @@ function Title() {
         </div>
         <div className='title'>
         <div className='technologies'>
-            <h2 className='sectionHead'>Full-Stack Developer</h2>
+            <h2 className='titleHead'>Full-Stack Developer</h2>
             <img className='allLogo' src="https://res.cloudinary.com/doqo7su1s/image/upload/v1667847194/currentLanguages_n8oirj.png" alt="alllogos"/>
             <ul className='techList'>
                 <li> 

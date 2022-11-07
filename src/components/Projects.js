@@ -6,8 +6,7 @@ function Projects() {
 
 
   return (
-    <div >
-      <h1 className='sectionHead'>SOME APPS/SITES I'VE BUILT</h1>
+    <div className='projects'>
       <ProjectCard1/>
       <ProjectCard2/>
       

@@ -8,6 +8,7 @@
   vertical-align: baseline;
   background: transparent;
   font-size: 16px;
+  color: azure;
 }
 @viewport {
   width: device-width ;
@@ -34,7 +35,12 @@ body {
 .sectionHead{
   color: #464684;
   margin-top: 15px;
-  font-size: 1.5rem;
+  font-size:2rem;
+}
+.titleHead{
+    color: #464684;
+    margin-top: 15px;
+    font-size: 2rem;
 }
 
 code {
@@ -114,7 +120,7 @@ code {
   flex-direction: column;
 }
 .allLogo{
-  width: 250px;
+  width: 200px;
   position: relative;
 }
 @media (min-width:625px){
@@ -123,7 +129,7 @@ code {
   }
 }
 @media (max-width:625px){
-  .sectionHead{
+  .titleHead{
     display: none;
   }
 }
@@ -157,7 +163,6 @@ code {
 }}
 
 
-
 .switch {
   width: 50px;
   background-color: rgba(201, 132, 242, 0.4);
@@ -178,18 +183,40 @@ code {
   background-color: rgb(72, 171, 228);
   border-radius: 40px;
 }
+.bio{
+  background-image: linear-gradient(#e5be8a, #BD9054);
+}
 .shortHist{
   max-width: 750px;
   width: 90%;
   margin: auto;
   font-family: raleway;
-  font-size: 5em;
   letter-spacing: .5px;
 }
-.shortHist h1{
-  font-family: fantasy;
+.shortHist p {
+  font-size: 1.5rem;
+  line-height:125%;
 }
-
+.shortHist strong {
+  font-size: 1.5rem;
+}
+.longHist{
+  max-width: 750px;
+  width: 90%;
+  margin: auto;
+  font-family: raleway;
+  letter-spacing: .5px;
+}
+.longHist p {
+  font-size: 1.5rem;
+  line-height:125%;
+}
+.longHist strong {
+  font-size: 1.5rem;
+}
+.projects{
+  background-image: linear-gradient(#BD9054, #97692C);
+}
 .projectCard{
   max-width: 400px;
   margin: auto;
