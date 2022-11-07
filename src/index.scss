@@ -5,9 +5,9 @@
   // padding: 0;
   border: 0;
   outline: 0;
-  // font-size: 100%;
   vertical-align: baseline;
   background: transparent;
+  font-size: 16px;
 }
 @viewport {
   width: device-width ;
@@ -47,11 +47,36 @@ code {
   color: azure;
   letter-spacing: 5px;
 }
+@media (max-width: 625px){
+  .joe {
+    font-size: 4em;
+  }
+}
+@media (min-width: 1000px){
+  .joe{
+  font-size: 8em;
+  }
+}
 .tag{
-  text-align: right;
+  text-align: center;
+  justify-content: space-around;
   font-family: kanit;
-  font-size: 2em;
+  font-size: 4em;
   color: azure;
+  display: flex;
+}
+.tag h2{
+  font-size: .5em;
+}
+@media (max-width:625px){
+  .tag {
+    font-size: 3em;
+  }
+}
+@media (min-width:1000px){
+  .tag h2 {
+    font-size: 1em;
+  }
 }
 .techList{
   display: flex;
@@ -95,8 +120,8 @@ code {
 .shortHist{
   max-width: 750px;
   margin: auto;
-  font-family: "Raleway";
-  font-size: larger;
+  font-family: raleway;
+  font-size: 5em;
   letter-spacing: .5px;
 }
 .shortHist h1{

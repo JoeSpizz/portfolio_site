@@ -5,8 +5,15 @@ function Title() {
     <div >
         <div className="header">
         {/* <img src="https://res.cloudinary.com/doqo7su1s/image/upload/v1667834577/joe_italy_extended_l2g0sb.jpg" alt="Joe"/> */}
-        <span><h1 className='joe'>Joe<br></br>Spizzandre</h1>
-        <h2 className='tag'>Developing a better tomorrow starts today</h2></span>
+        <h1 className='joe'>Joe<br></br>Spizzandre</h1>
+        <div className='tag'>
+        <h2 >Reliability </h2>
+        <h2 >// </h2>
+        <h2 >Flexibility </h2>
+        <h2 >// </h2>
+        <h2 >Creativty </h2>
+        {/* // Stability // Creativty */}
+        </div>
         </div>
         <div className='technologies'>
             <h2 className='sectionHead'>Full-Stack Developer</h2>
