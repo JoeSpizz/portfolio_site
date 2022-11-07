@@ -220,11 +220,17 @@ code {
 .projectCard{
   max-width: 400px;
   margin: auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  margin-bottom: 15px;
+  display: inline-flex;
+  border: #FFE3BE;
+  border-style: groove;
+  box-shadow: 5px 5px 5px #FFE3BE;
 }
-.projectCard img{
+.projectGIF{
+  max-height: 200px;
+}
+
+.projectSymbol{
   max-height: 50px;
   margin: 15px;
   width: auto;
