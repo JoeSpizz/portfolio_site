@@ -27,6 +27,8 @@ function Bio() {
       <motion.div className="handle" layout transition={spring} />
     </div>
         {bioLength==="short" ? <ShortHist/> : <LongHist/>}
+
+        <p> Put in Github/LinkedIn/Blog links</p>
     </div>
   )
 }

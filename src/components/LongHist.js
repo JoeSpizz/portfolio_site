@@ -13,7 +13,7 @@ function LongHist() {
           type:"spring",
           damping: 7
       }
-    }} ><h1>A Medium Length History</h1>
+    }} ><h1 className='sectionHead'>A Medium Length History</h1>
     <p>This is a WAY longer history of Joe</p></motion.div>
   )
 }

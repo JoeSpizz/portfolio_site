@@ -1,18 +1,38 @@
 @import url(https://fonts.googleapis.com/css?family=raleway);
-
+@import url(https://fonts.googleapis.com/css?family=kanit);
+* {
+  margin: 0;
+  // padding: 0;
+  border: 0;
+  outline: 0;
+  // font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
 @viewport {
   width: device-width ;
   zoom: 1.0 ;
 }
 body {
-  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  width: 100%;
+  background-color: #e5be8a;
+}
+.header{
+  background-image: url("https://res.cloudinary.com/doqo7su1s/image/upload/v1667834577/joe_italy_extended_l2g0sb.jpg");
+  background-repeat: no-repeat;
+  background-blend-mode: screen;
+  background-size: 100vw;
+  // width: 100vw;
+  // background-size: 100%;
+  
+}
+.sectionHead{
+  color: #464684;
 }
 
 code {
@@ -21,13 +41,17 @@ code {
 }
 
 .joe{
-  text-align: center;
-  font-family: fantasy;
-  font-size: 5em;
+  text-align: right;
+  font-family: kanit;
+  font-size: 6em;
+  color: azure;
+  letter-spacing: 5px;
 }
 .tag{
-  font-family: fantasy;
-  font-size: 1em;
+  text-align: right;
+  font-family: kanit;
+  font-size: 2em;
+  color: azure;
 }
 .techList{
   display: flex;
@@ -87,7 +111,8 @@ code {
   justify-content: center;
 }
 .projectCard img{
-  max-width:80px;
+  max-height: 50px;
   margin: 15px;
+  width: auto;
 }
 

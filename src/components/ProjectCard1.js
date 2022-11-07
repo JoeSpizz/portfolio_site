@@ -13,7 +13,7 @@ function ProjectCard1() {
     <div ref={ref}
     ><div  className="projectCard" style={motionRules}>
       <div>
-    <h1>What are we doing tonight?</h1>
+    <h1 className='sectionHead'>What are we doing tonight?</h1>
     <p>A small front-end App built after only 2 months of part-time programming. JS, HTML, CSS</p>
 <a href="https://plan4tonight.netlify.app/" target="_blank" rel="noreferrer">Plan for Tonight</a>
 </div>
