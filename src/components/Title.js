@@ -11,7 +11,7 @@ function Title() {
         <h2 >{"//"} </h2>
         <h2 >Flexibility </h2>
         <h2 >{"//"}</h2>
-        <h2 >Creativty </h2>
+        <h2 >Creativity </h2>
         </div>
         </div>
         <div className='titleWhole'>
