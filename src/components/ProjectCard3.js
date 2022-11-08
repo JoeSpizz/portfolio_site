@@ -12,8 +12,8 @@ function ProjectCard3() {
     <div ref={ref} className="projectCard" >
         <div style={motionRules}>
             <div className='pCardTop'>
-            <h1 className='sectionHead'>A Star Wars Fleet Battler</h1>
-            <img className='projectGIF' src="https://res.cloudinary.com/doqo7su1s/image/upload/v1667924398/Purring_Wolverine_app_fjmy7a.gif" alt="project GIF"/>
+            <h1 className='projectHead'>A Star Wars Fleet Battler</h1>
+            <img className='projectGIF' src="https://res.cloudinary.com/doqo7su1s/image/upload/v1667935014/Star_Wars_Battler_puizsl.gif" alt="project GIF"/>
             </div>
             <div className='pCardBot'>
           <p>Using ReactJS for the front, and Sinatra for Ruby for the back-end, I built an app wherein you can pick a fleet of Star Wars starships (initial seed data pulled from SWAPI), then battle your fleet vs others on various planets.</p>

@@ -15,12 +15,14 @@ function ProjectCard1() {
     <div ref={ref} className="projectCard">
       <div  style={motionRules} className="projects">
       <div className='pCardTop'>
-      <h1 className='sectionHead'>What are we doing tonight?</h1>
+      <h1 className='projectHead'>What are we doing tonight?</h1>
         <img onClick={enlarge} className='projectGIF' src="https://res.cloudinary.com/doqo7su1s/image/upload/v1667923382/what_are_you_doing_tonight_app_j19eqf.gif" alt="project GIF"/>
         </div>
         <div className='pCardBot'>
     <p>A simple vanilla JavaScript front-end-only app utlizing API calls and embeds. Built for the <strong>first</strong> phase of Flatiron's Software Engineering course. </p>
 <a href="https://plan4tonight.netlify.app/" target="_blank" rel="noreferrer">Plan for Tonight</a>
+<a href="https://youtu.be/LV741sZEExQ" target="_blank" rel="noreferrer">YouTube Walkthrough</a>
+    
 
 <img className="projectSymbol"  title="HTML" src="https://www.w3.org/html/logo/downloads/HTML5_Badge_512.png" alt="HTML"/>
 <img className="projectSymbol" src="https://www.freepnglogos.com/uploads/javascript-png/javascript-logo-transparent-logo-javascript-images-3.png" alt="javascript logo"/>
