@@ -18,6 +18,7 @@ function ProjectCard3() {
             <div className='pCardBot'>
           <p>Using ReactJS for the front, and Sinatra for Ruby for the back-end, I built an app wherein you can pick a fleet of Star Wars starships (initial seed data pulled from SWAPI), then battle your fleet vs others on various planets.</p>
           <a href="https://youtu.be/0tf71fCYs-0"target="_blank" rel="noreferrer">Fleet Battler Youtube Walk-through</a>
+          <a className="projectGithub" href="https://github.com/JoeSpizz/phase-3-final-front-end" target="blank" rel="noreferrer"> <img src="https://res.cloudinary.com/doqo7su1s/image/upload/v1667854580/empty_github_qlhixy.png" alt="github"/> </a>
     <img className="projectSymbol"  title="HTML" src="https://www.w3.org/html/logo/downloads/HTML5_Badge_512.png" alt="HTML"/>
     <img className="projectSymbol" src="https://www.freepnglogos.com/uploads/javascript-png/javascript-logo-transparent-logo-javascript-images-3.png" alt="javascript logo"/>
     <img className="projectSymbol"  src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png" alt="CSS logo"/>

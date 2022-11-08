@@ -19,6 +19,7 @@ function ProjectCard2() {
           <p>Using ReactJS I built a home page for my ASMR channel. This site utilizes a Supabase hosted API for the channel content.</p>
           <a href="https://apurringwolverine.netlify.app/"target="_blank" rel="noreferrer">A Purring Wolverine</a>
           <a href="https://youtu.be/10VBm1TZcnA" target="_blank" rel="noreferrer">YouTube Walkthrough</a>
+          <a className="projectGithub" href="https://github.com/JoeSpizz/Purring-Wolverine-Home" target="blank" rel="noreferrer"> <img src="https://res.cloudinary.com/doqo7su1s/image/upload/v1667854580/empty_github_qlhixy.png" alt="github"/> </a>
     <img className="projectSymbol"  title="HTML" src="https://www.w3.org/html/logo/downloads/HTML5_Badge_512.png" alt="HTML"/>
     <img className="projectSymbol" src="https://www.freepnglogos.com/uploads/javascript-png/javascript-logo-transparent-logo-javascript-images-3.png" alt="javascript logo"/>
     <img className="projectSymbol"  src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png" alt="CSS logo"/>

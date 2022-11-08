@@ -22,6 +22,7 @@ function ProjectCard1() {
     <p>A simple vanilla JavaScript front-end-only app utlizing API calls and embeds. Built for the <strong>first</strong> phase of Flatiron's Software Engineering course. </p>
 <a href="https://plan4tonight.netlify.app/" target="_blank" rel="noreferrer">Plan for Tonight</a>
 <a href="https://youtu.be/LV741sZEExQ" target="_blank" rel="noreferrer">YouTube Walkthrough</a>
+<a className="projectGithub" href="https://github.com/JoeSpizz/Phase-1-Portfolio-Project" target="blank" rel="noreferrer"> <img src="https://res.cloudinary.com/doqo7su1s/image/upload/v1667854580/empty_github_qlhixy.png" alt="github"/> </a>
     
 
 <img className="projectSymbol"  title="HTML" src="https://www.w3.org/html/logo/downloads/HTML5_Badge_512.png" alt="HTML"/>
