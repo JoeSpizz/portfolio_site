@@ -40,6 +40,7 @@ body {
     color: #464684;
     margin-top: 15px;
     font-size: 2rem;
+    word-wrap:break-word;
 }
 
 code {
@@ -122,14 +123,15 @@ code {
     display: none;
   }
 }
-@media (max-width:625px){
-  .titleHead{
-    display: none;
-  }
-}
+// @media (max-width:625px){
+//   .titleHead{
+//     display: none;
+//   }
+// }
 .professionalLinks {
  display: flex;
  justify-content: space-around;
+ grid-column: 1;
  max-width: 750px;
  margin: auto;
  margin-top: 15px;
@@ -152,8 +154,9 @@ code {
   }
 }
 @media(max-width:625px){
-.title{
-  display: flex;
+.titleWhole{
+  display: inline-flex;
+  flex-wrap: wrap;
 }}
 
 

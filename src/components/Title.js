@@ -2,7 +2,7 @@ import React from 'react'
 
 function Title() {
   return (
-    <div >
+    <div>
         <div className="header">
         {/* <img src="https://res.cloudinary.com/doqo7su1s/image/upload/v1667834577/joe_italy_extended_l2g0sb.jpg" alt="Joe"/> */}
         <h1 className='joe'>Joe<br></br>Spizzandre</h1>
@@ -13,11 +13,11 @@ function Title() {
         <h2 >{"//"}</h2>
         <h2 >Creativty </h2>
         </div>
-       
         </div>
+        <div className='titleWhole'>
         <div className='title'>
         <div className='technologies'>
-            <h2 className='titleHead'>Full-Stack Development</h2>
+            <h2 className='titleHead'>Languages</h2>
             <img className='allLogo' src="https://res.cloudinary.com/doqo7su1s/image/upload/v1667847194/currentLanguages_n8oirj.png" alt="alllogos"/>
             <ul className='techList'>
                 <li> 
@@ -43,6 +43,8 @@ function Title() {
                 </li>
             </ul>
         </div>
+        </div>
+        <div>
         <h2 className='titleHead'>About Me</h2>
         <div className='professionalLinks'>
                 <a href="https://github.com/JoeSpizz" target={"blank"} rel="noreferrer">
@@ -57,6 +59,7 @@ function Title() {
                 <a href="https://docs.google.com/document/d/1eN3K5tswj9IDyzcwjtplrVEHkPCbWiNAlrl1y4VfMC0/export?format=pdf" target="blank" rel="noreferrer">
                     <img src="https://res.cloudinary.com/doqo7su1s/image/upload/v1667855048/resume_symbol_cutout_twc2xx.png" alt="resume"/>
                 </a>
+            </div>
             </div>
             </div>
     </div>
