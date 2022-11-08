@@ -17,7 +17,7 @@ function Title() {
         </div>
         <div className='title'>
         <div className='technologies'>
-            <h2 className='titleHead'>Full-Stack Developer</h2>
+            <h2 className='titleHead'>Full-Stack Development</h2>
             <img className='allLogo' src="https://res.cloudinary.com/doqo7su1s/image/upload/v1667847194/currentLanguages_n8oirj.png" alt="alllogos"/>
             <ul className='techList'>
                 <li> 
@@ -43,6 +43,7 @@ function Title() {
                 </li>
             </ul>
         </div>
+        <h2 className='titleHead'>About Me</h2>
         <div className='professionalLinks'>
                 <a href="https://github.com/JoeSpizz" target={"blank"} rel="noreferrer">
                     <img src="https://res.cloudinary.com/doqo7su1s/image/upload/v1667854580/empty_github_qlhixy.png" alt="github"/>

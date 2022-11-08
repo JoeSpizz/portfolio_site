@@ -22,12 +22,14 @@ function Bio() {
       };
   
   return (
+    <div>
     <div className="bio"> 
          <div className="switch" data-isOn={isOn} onClick={toggleSwitch}>
       <motion.div className="handle" layout transition={spring} />
     </div>
         {bioLength==="short" ? <ShortHist/> : <LongHist/>}
 
+    </div>
     </div>
   )
 }

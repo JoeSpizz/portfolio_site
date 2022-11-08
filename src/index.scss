@@ -21,7 +21,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  background-color: #e5be8a;
+  // background-image: linear-gradient(#e5be8a, #97692C);
 }
 .header{
   background-image: url("https://res.cloudinary.com/doqo7su1s/image/upload/v1667834577/joe_italy_extended_l2g0sb.jpg");
@@ -34,7 +34,6 @@ body {
 }
 .sectionHead{
   color: #464684;
-  margin-top: 15px;
   font-size:2rem;
 }
 .titleHead{
@@ -86,11 +85,7 @@ code {
     font-size: 3em;
   }
 }
-// @media (max-width:415px){
-//   .tag {
-//     font-size: 1.5em;
-//   }
-// }
+
 @media (min-width:1000px){
   .tag h2 {
     font-size: 1em;
@@ -99,7 +94,6 @@ code {
 .techList{
   margin-top: 15px;
   display: flex;
-  // flex-wrap: wrap;
  grid-column: 1;
  justify-content: space-around;
 }
@@ -165,7 +159,7 @@ code {
 
 .switch {
   width: 50px;
-  background-color: rgba(201, 132, 242, 0.4);
+  background-color: #7676e3;
   display: flex;
   justify-content: flex-start;
   border-radius: 50px;
@@ -180,25 +174,28 @@ code {
 .handle {
   width: 15px;
   height: 15px;
-  background-color: rgb(72, 171, 228);
+  background-color: rgb(112, 196, 245);
   border-radius: 40px;
 }
-.bio{
-  background-image: linear-gradient(#e5be8a, #BD9054);
-}
+
 .shortHist{
   max-width: 750px;
   width: 90%;
   margin: auto;
-  font-family: raleway;
+  font-family: Georgia;
   letter-spacing: .5px;
 }
 .shortHist p {
   font-size: 1.5rem;
   line-height:125%;
+  color: black;
+  padding-left: 15px;
+  border-left: 3px dotted black;
 }
 .shortHist strong {
   font-size: 1.5rem;
+  font-style: italic;
+  color: #7676e3;
 }
 .longHist{
   max-width: 750px;
@@ -210,29 +207,65 @@ code {
 .longHist p {
   font-size: 1.5rem;
   line-height:125%;
+  color: black;
+  // font-weight: bold;
+  padding-left: 15px;
+  border-left: 3px dotted black;
+  // background-color: #f4d6b0;
 }
-.longHist strong {
+.longHist a{
   font-size: 1.5rem;
+  font-weight: bold;
+  line-height:125%;
+  color: #7676e3
 }
-.projects{
-  background-image: linear-gradient(#BD9054, #97692C);
+.longHist em {
+  font-size: 1.5rem;
+  color: #7676e3
 }
+.longHist h2 {
+  color: black;
+  font-size: 2rem;
+}
+
 .projectCard{
-  max-width: 400px;
+  display: inline-flex;
+  width: 325px;
+  height: 500px;
   margin: auto;
   margin-bottom: 15px;
-  display: inline-flex;
-  border: #FFE3BE;
-  border-style: groove;
-  box-shadow: 5px 5px 5px #FFE3BE;
+  margin-left: 15px;
+  background-color: #464684;
+  margin-top: 25px;
+}
+.projectCard a {
+  color: #f4d6b0;
+  display: block;
+  padding-top: 5px;
+}
+.projectCard p {
+  padding-top: 5px;
+  width: 85%;
+  margin: auto;
+  z-index: 1;
+}
+.pCardTop{
+  background-color: #CDC4DC
+}
+.pCardBot{
+  position: relative;
+  top: 15%;
+  transform: translateY(-30%);
 }
 .projectGIF{
   max-height: 200px;
 }
 
 .projectSymbol{
-  max-height: 50px;
-  margin: 15px;
+  max-height: 25px;
+  margin: 10px;
   width: auto;
 }
+
+
 
