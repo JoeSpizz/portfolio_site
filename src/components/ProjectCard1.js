@@ -1,10 +1,4 @@
-import React, {useRef} from 'react'
-import {SiRubyonrails } from 'react-icons/si'
-import {DiCss3, DiHtml5, DiJavascript, DiPostgresql, DiReact, DiRuby} from 'react-icons/di'
-
-
 function ProjectCard1({project}) {
-  const ref = useRef(null);
  
   return (
     <div className="projectCard">
