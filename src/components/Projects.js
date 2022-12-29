@@ -38,7 +38,7 @@ function Projects() {
   languages: [ <DiHtml5 fill="orange" size={"50px"}/>, <DiCss3 fill="yellow" size={"50px"}/>, <DiJavascript fill="blue" size={"50px"}/>, <DiReact fill="black" size={"50px"}/>, <DiRuby fill="red" size="50px"/>, <SiRubyonrails fill="red" size="30px"/>]
 },
     {title: "Continue the Fun",
-    gif: "https://res.cloudinary.com/doqo7su1s/image/upload/v1672336545/Untitled_design_nojemd.gif",
+    gif: "https://res.cloudinary.com/doqo7su1s/image/upload/v1672338650/Untitled_design_6_jpwrew.gif",
   description: "An e-commerce site for second-hand board games. Can be sold or offerred for free. Features e-mails to users, wishlist functionality, and 80% of a check-out (we don't want to charge your card for real!)",
   live: "https://continue-the-fun.onrender.com/",
   YTwalkthrough: "https://youtu.be/MbhrHHzGcFc",
