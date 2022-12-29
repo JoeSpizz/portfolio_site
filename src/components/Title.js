@@ -1,4 +1,6 @@
 import React from 'react'
+import {SiRubyonrails } from 'react-icons/si'
+import {DiCss3, DiHtml5, DiJavascript, DiPostgresql, DiReact, DiRuby} from 'react-icons/di'
 
 function Title() {
   return (
@@ -20,26 +22,28 @@ function Title() {
             <h2 className='titleHead'>Languages</h2>
             <img className='allLogo' src="https://res.cloudinary.com/doqo7su1s/image/upload/v1667847194/currentLanguages_n8oirj.png" alt="alllogos"/>
             <ul className='techList'>
+
+                {/* React Icons npm install! */}
                 <li> 
-                    <img className="techSymbol" title="HTML" src="https://www.w3.org/html/logo/downloads/HTML5_Badge_512.png" alt="HTML"/>
+                    <DiHtml5 fill="orange" size={"80px"}/>
                 </li>
                 <li>
-                    <img className="techSymbol" src="https://www.freepnglogos.com/uploads/javascript-png/javascript-logo-transparent-logo-javascript-images-3.png" title="Javascript" alt="javascript logo"/>
+                    <DiJavascript fill="yellow" size={"80px"}/>
                 </li>
                 <li>
-                    <img className="techSymbol" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png" title="CSS" alt="CSS logo"/>
+                    <DiCss3 fill="blue" size={"80px"}/>    
+                </li>
+                <li>   
+                    <DiReact fill="black" size={"80px"}/>
                 </li>
                 <li>
-                    <img className="techSymbol" src="https://assets.stickpng.com/images/584830f5cef1014c0b5e4aa1.png" title="React" alt="React Logo"/>
+                    <DiRuby fill="red" size={"80px"}/>    
+                 </li>
+                <li>
+                    <SiRubyonrails fill="red" size={"100px"}/>
                 </li>
                 <li>
-                    <img className="techSymbol" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ruby_logo.svg/1024px-Ruby_logo.svg.png" title="Ruby" alt="Ruby Logo"/>
-                </li>
-                <li>
-                    <img className="techSymbol" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Ruby_On_Rails_Logo.svg/1200px-Ruby_On_Rails_Logo.svg.png" title="Rails" alt="Rails Logo"/>
-                </li>
-                <li>
-                    <img className="techSymbol" src="https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png" title="SQL" alt="SQL logo"/>
+                <DiPostgresql fill="blue" size={"80px"}/>    
                 </li>
             </ul>
         </div>
