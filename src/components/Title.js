@@ -6,7 +6,6 @@ function Title() {
   return (
     <div>
         <div className="header">
-        {/* <img src="https://res.cloudinary.com/doqo7su1s/image/upload/v1667834577/joe_italy_extended_l2g0sb.jpg" alt="Joe"/> */}
         <h1 className='joe'>Joe<br></br>Spizzandre</h1>
         <div className='tag'>
         <h2 >Reliability </h2>
@@ -22,9 +21,8 @@ function Title() {
             <h2 className='titleHead'>Languages</h2>
             <img className='allLogo' src="https://res.cloudinary.com/doqo7su1s/image/upload/v1667847194/currentLanguages_n8oirj.png" alt="alllogos"/>
             <ul className='techList'>
-
-                {/* React Icons npm install! */}
-                <li> 
+              {/* React Icons npm install! */}
+              <li> 
                     <DiHtml5 fill="orange" size={"80px"}/>
                 </li>
                 <li>
