@@ -195,11 +195,20 @@ code {
   padding-left: 15px;
   border-left: 3px dotted black;
 }
+@media(max-width:625px){
+  .shortHist p {
+    font-size: 1.1rem;
+  }}
 .shortHist strong {
   font-size: 1.5rem;
   font-style: italic;
   color: #7676e3;
 }
+@media(max-width:625px){
+  .shortHist strong {
+    font-size: 1.2rem;
+  }}
+
 .longHist{
   max-width: 750px;
   width: 90%;
@@ -216,12 +225,20 @@ code {
   border-left: 3px dotted black;
   // background-color: #f4d6b0;
 }
+@media(max-width:625px){
+  .longHist p {
+    font-size: 1.1rem;
+  }}
 .longHist a{
   font-size: 1.5rem;
   font-weight: bold;
   line-height:125%;
   color: #7676e3
 }
+@media(max-width:625px){
+  .longHist a {
+    font-size: 1.2rem;
+  }}
 .longHist em {
   font-size: 1.5rem;
   color: #7676e3
