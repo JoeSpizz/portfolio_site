@@ -1,5 +1,5 @@
 import React from 'react'
-import {SiRubyonrails } from 'react-icons/si'
+import {SiRubyonrails, SiVuedotjs, SiQuasar } from 'react-icons/si'
 import {DiCss3, DiHtml5, DiJavascript, DiPostgresql, DiReact, DiRuby} from 'react-icons/di'
 
 function Title() {
@@ -18,7 +18,7 @@ function Title() {
         <div className='titleWhole'>
         <div className='title'>
         <div className='technologies'>
-            <h2 className='titleHead'>Languages</h2>
+            <h2 className='titleHead'>Languages/Proficiencies</h2>
             <img className='allLogo' src="https://res.cloudinary.com/doqo7su1s/image/upload/v1667847194/currentLanguages_n8oirj.png" alt="alllogos"/>
             <ul className='techList'>
               {/* React Icons npm install! */}
@@ -43,11 +43,16 @@ function Title() {
                 <li>
                 <DiPostgresql fill="blue" size={"80px"}/>    
                 </li>
+                <li>
+                    <SiVuedotjs fill="green" size={"80px"}/>
+                </li>
+                <li>
+                    <SiQuasar fill="blue" size={"80px"}/>                </li>
             </ul>
         </div>
         </div>
         <div>
-        <h2 className='titleHead'>About Me</h2>
+        <h2 className='titleHead'>Links to Learn More</h2>
         <div className='professionalLinks'>
                 <a href="https://github.com/JoeSpizz" target={"blank"} rel="noreferrer">
                     <img src="https://res.cloudinary.com/doqo7su1s/image/upload/v1667854580/empty_github_qlhixy.png" alt="github"/>
@@ -60,6 +65,9 @@ function Title() {
                     </a>
                 <a href="https://docs.google.com/document/d/1eN3K5tswj9IDyzcwjtplrVEHkPCbWiNAlrl1y4VfMC0/export?format=pdf" target="blank" rel="noreferrer">
                     <img src="https://res.cloudinary.com/doqo7su1s/image/upload/v1667855048/resume_symbol_cutout_twc2xx.png" alt="resume"/>
+                </a>
+                <a href="https:www.downtoearthcloudsolutions.com" target='blank' rel='norefferer'>
+                    <img src={require("../assets/images/dte-light-cloud.png")} alt="DTE logo"/>
                 </a>
             </div>
             </div>
